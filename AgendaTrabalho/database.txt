@@ -1,0 +1,10 @@
+
+
+create database agenda_trabalho;
+use agenda;
+create table contato(
+id int auto_increment,
+nome varchar(250) not null,
+telefone varchar(11) not null,
+primary key (id)
+);
